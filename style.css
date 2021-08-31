@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+form{
+    display: grid;
+    place-content: center;
+}
+
+#search-btn{
+    width: 200px;
+    height: 20px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid black;
+}
