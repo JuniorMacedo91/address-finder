@@ -9,25 +9,33 @@
 </head>
 <body>
     <div class="container">
-        <form class="form_box">
 
-            <label for="CEP">CEP</label>
-            <input type="text" id="cep" placeholder="00000-000">
-
-            <label for="Logradouro">Logradouro</label>
-            <input type="text" id="logradouro">
-
-            <label for="Bairro">Bairro</label>
-            <input type="text" id="bairro">
-
-            <label for="Cidade">Cidade</label>
-            <input type="text" id="localidade">
-
-            <label for="Estado">Estado</label>
-            <input type="text" id="uf">
+        <div class="image_box"></div>
         
-        </form>
-        <button id="search-btn">Pesquisar</button>
+        <div class="form_container">
+
+            <h1 id="title">Find your road</h1>
+
+            <label id="zipcode" for="CEP">
+                <input type="text" id="cep" placeholder="CEP">
+            </label>
+
+            <form class="form_box">
+    
+                <label for="Logradouro">Logradouro</label>
+                <input type="text" id="logradouro">
+    
+                <label for="Bairro">Bairro</label>
+                <input type="text" id="bairro">
+    
+                <label for="Cidade">Cidade</label>
+                <input type="text" id="localidade">
+    
+                <label for="Estado">Estado</label>
+                <input type="text" id="uf">
+            
+            </form>
+        </div>
     </div>
 </body>
 <script src="script.js"></script>
