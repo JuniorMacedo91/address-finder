@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Api Fetch</title>
+    <title>Find your road</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mediaquerie.css">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
 </head>
 <body>
     <div class="container">
@@ -16,11 +17,13 @@
         </div>
         
         <div class="form_container">
-            <i id="marker" class="fas fa-map-marker-alt"></i>
-            <h1 id="title">Find your road </h1>
+            <div class="slogan_box">
+                <i id="marker" class="fas fa-map-marker-alt"></i>
+                <h1 id="title">Find your road </h1>
+            </div>
 
             <label id="zipcode" for="CEP">
-                <input type="text" id="cep" placeholder="CEP">
+                <input type="number" id="cep" placeholder="CEP">
                 <i id="search-btn" class="fas fa-search"></i>
             </label>
 
