@@ -5,9 +5,10 @@
     }
 
     .image_box{
-       background-color: var(--dark-gray);
-       background:url(../assets/sp.jpg) no-repeat top ;
-       background-size: contain;
+        height: 300px;
+        background-color: var(--dark-gray);
+        background:url(../assets/sp.jpg) no-repeat center ;
+        background-size: cover ;
     }
 
     .image_box img{
@@ -21,7 +22,8 @@
     }
 
     input{
-        font-size: 12px;
+        backdrop-filter: blur(10px);
+        font-size: 14px;
     }
 
     #title{

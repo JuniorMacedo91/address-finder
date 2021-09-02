@@ -60,12 +60,10 @@
     font-size: 1rem;
     border:none;
     border-bottom: 1px solid var(--text);
-    border-radius: 0;
 }
 
 #search-btn{
     font-size: 1.3rem;
-    margin-left: -1.5rem;
 }
 
 #search-btn:hover{
