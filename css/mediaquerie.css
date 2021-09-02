@@ -1,0 +1,42 @@
+@media screen and (max-width:767px) {
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .image_box{
+       background-color: var(--dark-gray);
+       background:url(../assets/sp.jpg) no-repeat top ;
+       background-size: contain;
+    }
+
+    .image_box img{
+        display: none;
+    }
+
+    .form_container{
+        width: 100%;
+        height: inherit;
+        position: absolute;
+    }
+
+    input{
+        font-size: 12px;
+    }
+
+    #title{
+        font: bolder 2.5rem 'Ubuntu';
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .image_box img{
+       width: 300px;
+    }
+}
