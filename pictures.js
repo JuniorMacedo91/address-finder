@@ -28,7 +28,7 @@ const pictures = [
     {state:'TO', photo:'https://cdn.pixabay.com/photo/2019/06/21/14/45/jalapon-4289637_1280.jpg'},
 ]
 
-const cityPhoto = document.querySelector('#image_content')
+const cityPhoto = document.querySelector('#photo')
 
 cityPhoto.src = pictures[].photo;
 
