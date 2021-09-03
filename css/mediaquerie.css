@@ -4,14 +4,15 @@
         grid-template-columns: auto;
     }
 
-    .image_box{
+    .image_container{
         height: 300px;
         background-color: var(--dark-gray);
+        background: none;
      }
 
-    #image_content{
+    #photo{
         width: 100%;
-        height: inherit;
+        height: 300px;
         background-color: var(--dark-gray);
     }
 
@@ -38,13 +39,22 @@
         grid-template-columns: auto;
     }
 
-    .image_box{
-        height: 200px;
+    .image_container{
+        height: 350px;
+        background-size: 300px;
      }
+
+    #photo{
+        width: 100%;
+        height: inherit;
+    }
+}
+
+@media screen and (min-width:1024px) {
 
     #image_content{
         width: 100%;
-        height: 600px;
+        height: 100vh;
     }
 }
 
