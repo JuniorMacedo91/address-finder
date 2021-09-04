@@ -1,8 +1,6 @@
 # API-de-CEP
 Sistema para consultar CEP.
 
-## Projeto:
-
 <p align="center">
   <img src="cover-cep.png" width="750px">
 </p>
@@ -10,9 +8,16 @@ Sistema para consultar CEP.
 ## Descrição:
 Primeiro projeto desenvolvido para aprender os conceitos de API usando Fetch.
 
-Para usar, basta inserir algu
+Para usar, basta inserir algum CEP e aguardar a requisição. Caso CEP não seja localizado, será gerado uma mensagem informando sobre.
 
 Para um layout mais atrativo, a cada estado localizado, gera a foto do local.
+
+## Funcionalidades:
+
+- [x] Pesquisa de endereço;
+- [x] Layout interativo com fotos;
+- [x] Site responsivo;
+
 
 ## Layout Responsivo:
 <p align="center">
@@ -21,11 +26,13 @@ Para um layout mais atrativo, a cada estado localizado, gera a foto do local.
 
 
 ## Principais desafios:
-- Desenvolver a lógica para elaborar cada mecanismo;
-- Colocar em prática os conceitos de um código limpo e organizado, evitando repetições;
-- Como usar função dentro de outra;
-- Acessar propriedades de um objeto;
-- Importar e Exportar módulos;
+- Entender como uma API funciona;
+- Como utilizar JSON;
+- Finalidade e importancia do parâmetros abaixo:
+  - method: 'GET': Gera uma consulta e acrescenta a URL;
+  - mode: 'cors': Modo de acesso. Solicita permissão para acessar;
+  - cache: 'default':
+- Estruturar uma arrow function;
 
 ## Tecnologias:
 
