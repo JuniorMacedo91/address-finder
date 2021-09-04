@@ -1,4 +1,4 @@
-const pictures = [
+ export const pictures = [
     {state:'AC', photo:'https://upload.wikimedia.org/wikipedia/commons/f/f3/Aerial_view_of_Acre_1.jpg'},
     {state:'AL', photo:'https://upload.wikimedia.org/wikipedia/commons/f/fe/Panorama_de_Macei%C3%B3.jpg'},
     {state:'AP', photo:'https://live.staticflickr.com/65535/51325512240_8f80fbd6b1_b.jpg'},
@@ -28,8 +28,3 @@ const pictures = [
     {state:'TO', photo:'https://cdn.pixabay.com/photo/2019/06/21/14/45/jalapon-4289637_1280.jpg'},
 ]
 
-const cityPhoto = document.querySelector('#photo')
-
-cityPhoto.src = pictures[].photo;
-
-console.log(cityPhoto)
