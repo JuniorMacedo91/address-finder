@@ -2,7 +2,6 @@ const cep = document.querySelector('#cep')
 const searching = document.querySelector('#search-btn')
 const imageContainer = document.querySelector('.image_container')
 
-
 const showResult = (result) => {
     for(const item in result){
         if(document.querySelector('#'+ item)){
@@ -23,22 +22,26 @@ searching.addEventListener('click', (e) =>{
 
     fetch(`https://viacep.com.br/ws/${search}/json/`, options)
     .then(response => {response.json()
-        .then( function data(data){
-            return showResult(data)
-        })
+        .then(function data(data){
+            return getState(data) , showResult(data)
+            }
+        )
     })
     .catch(e => alert('CEP Não Localizado'))
 })
 
 //Find and show picture state
 
-for(var i=0; i < pictures.length;i++){
-    let photo = document.createElement('img')
-    photo.setAttribute('id','photo')
-    if(pictures[i].state == 'BA'){
-        photo.setAttribute('src', `${pictures[i].photo}`)
-        imageContainer.appendChild(photo)
-    } 
+let photo = document.createElement('img')
+photo.setAttribute('id','photo')
+
+const getState = (data) =>{
+    for(var i=0; i < pictures.length;i++){
+        if(pictures[i].state == data.uf){
+            photo.setAttribute('src', `${pictures[i].photo}`)
+            imageContainer.appendChild(photo)
+        } 
+    }
 }
 
 
