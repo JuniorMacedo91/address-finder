@@ -63,6 +63,16 @@
     font-size: 1rem;
     border:none;
     border-bottom: 1px solid var(--text);
+    border-radius: 0;
+}
+
+#cep:focus{
+    border-bottom: 1px solid var(--purple);
+    border-radius: 0;
+}
+
+#cep::placeholder{
+    color: var(--text);
 }
 
 #search-btn{
@@ -76,15 +86,6 @@
 #search-btn:active{
     transform: scale(1.2);
     color: var(--purple);
-}
-
-#cep:focus{
-    border-bottom: 1px solid var(--purple);
-    border-radius: 0;
-}
-
-#cep::placeholder{
-    color: var(--text);
 }
 
 label{
