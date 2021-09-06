@@ -33,6 +33,7 @@ Para um layout mais atrativo, a cada estado localizado, gera a foto do local.
   - mode: 'cors': Modo de acesso. Solicita permissão para acessar;
   - cache: 'default':
 - Estruturar uma arrow function;
+- Para CSS, estruturar com Grid;
 
 ## Tecnologias:
 
