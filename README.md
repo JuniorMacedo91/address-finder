@@ -1,4 +1,4 @@
-# <p align="center"> API-de-CEP </p>
+# <p align="center"> Address Finder </p>
 
 <p align="center">
   <img src="cover-cep.png" width="750px">
