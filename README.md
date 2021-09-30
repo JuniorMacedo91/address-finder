@@ -1,41 +1,37 @@
-# API-de-CEP
-Sistema para consultar CEP.
+# <p align="center"> API-de-CEP </p>
 
 <p align="center">
   <img src="cover-cep.png" width="750px">
 </p>
 
-## Descrição:
-Primeiro projeto desenvolvido para aprender os conceitos de API usando Fetch.
+## About:
+First Project developed to learn about API with fetch.
 
-Para usar, basta inserir algum CEP e aguardar a requisição. Caso CEP não seja localizado, será gerado uma mensagem informando sobre.
+Basically you just have to insert a zipcode and wait a request. If positive, all address informations will be displayed. If not, a modal will appear sending an error.
 
-Para um layout mais atrativo, a cada estado localizado, gera a foto do local.
+For an interactive layout, a picture of each state will appear.
 
-## Funcionalidades:
+## Features:
 
-- [x] Pesquisa de endereço;
-- [x] Layout interativo com fotos;
-- [x] Site responsivo;
+- [x] Zip code searching;
+- [x] Interactive layout with photo;
+- [x] Resposive webpages;
 
 
-## Layout Responsivo:
+## Responsive Layout:
 <p align="center">
   <img src="responsive.png" width="750px">
 </p>
 
 
-## Principais desafios:
-- Entender como uma API funciona;
-- Como utilizar JSON;
-- Finalidade e importancia do parâmetros abaixo:
-  - method: 'GET': Gera uma consulta e acrescenta a URL;
-  - mode: 'cors': Modo de acesso. Solicita permissão para acessar;
-  - cache: 'default':
-- Estruturar uma arrow function;
-- Para CSS, estruturar com Grid;
+## Main Challenges:
+- Learn how APIs works;
+- How to apply JSON;
+- Method get, mode cors, cache default;
+- How to build arrow functions;
+- Css grid layout
 
-## Tecnologias:
+## Skills:
 
 [![HTML](https://img.shields.io/badge/HTML-red?style=for-the-badge&logo=HTML5&labelColor=black)](https://github.com/JuniorMacedo91)
 [![CSS](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=CSS3&labelColor=black)](https://github.com/JuniorMacedo91)
